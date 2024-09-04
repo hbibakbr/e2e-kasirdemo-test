@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Object Repository/Register/Page_kasirAja/a_ingin mencoba, daftar'))
+WebUI.click(findTestObject('Object Repository/Register/a_ingin mencoba, daftar'))
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_kasirAja/input_nama toko_name'), toko_Nama)
+WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), toko_Nama)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_kasirAja/input_email_email'), toko_Email)
+WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), toko_Email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/Page_kasirAja/input_password_password'), '8PPkucwQaPeZ0HdZ0LuvBw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), '8PPkucwQaPeZ0HdZ0LuvBw==')
 
-WebUI.click(findTestObject('Object Repository/Register/Page_kasirAja/button_daftar'))
+WebUI.click(findTestObject('Object Repository/Register/button_daftar'))
 
-WebUI.click(findTestObject('Object Repository/Register/Page_kasirAja/div_Toko berhasil didaftarkananda dapat men_b3a8bd'))
+WebUI.click(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkananda dapat men_b3a8bd'))
 
-WebUI.click(findTestObject('Object Repository/Register/Page_kasirAja/div_Toko berhasil didaftarkan'))
+WebUI.click(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkan'))
 
-WebUI.click(findTestObject('Object Repository/Register/Page_kasirAja/div_anda dapat menggunakan login sekarang'))
+WebUI.click(findTestObject('Object Repository/Register/div_anda dapat menggunakan login sekarang'))
 
